@@ -63,6 +63,7 @@ int main(){
 			std::cin >> ini >> fin;
 
 			addArista(ini,fin);
+			addArista(fin,ini);
 		}
 		
 		profundidad(0);
